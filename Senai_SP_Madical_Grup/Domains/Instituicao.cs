@@ -19,5 +19,6 @@ namespace Senai_SP_Madical_Grup.Domains
         public string Cnpj { get; set; }
 
         public virtual ICollection<Medico> Medicos { get; set; }
+        public int IdInstituicao { get; internal set; }
     }
 }
